@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="text/javascript" src="app.js" defer></script>
+    <title>Matheus dos Reis</title>
+  </head>
+
+  <body>
+    <nav class="nav-list">
+      <ul>
+        <p>Bem vindo a minha página</p>
+        <li>
+          <a href="https://www.linkedin.com/in/matheusreis35" target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/zeTheu" target="_blank">Portfólio</a>
+        </li>
+        <li>
+          <button id="btnAbrirModal">Contato</button></li>
+      </ul>
+    </nav>
+    
+    <dialog id="dialog">
+      <h2>Você pode me contatar por aqui:</h2>
+      <ul>
+        <li>Whatsapp: (35) 99873-2336</li>
+        <li>Instagram: @theus_reis35</li>
+        <li>E-mail: matheus.reisfonseca35@gmail.com</li>
+      </ul>
+
+      <button id="btnSair">Fechar</button>
+    </dialog>
+
+    <div id="conteudo">
+      <div class="infos">
+        <h2>Olá, meu nome é:</h2>
+        <h1>Matheus dos Reis Fonseca</h1>
+        <h2>Desenvolvedor Full Stack</h2>
+        <p>
+          Desenvolvedor Full Stack iniciante com foco em ser Júnior, atualmente
+          a procura de um estágio, tanto para aprimorar minhas habilidades na
+          área quanto para absorver mais conhecimento. Cursando Ciências da
+          Computação, estudando tecnologias atuais voltadas a programação web, e
+          cursando inglês a parte. Capaz de trabalhar em grupo com facilidade
+          tendo proatividade nos projetos encarregados
+        </p>
+        <button id="btnClick" onclick="{downloadcv()}">Baixar CV</button>
+      </div>
+
+      <div class="profile-image">
+        <h1 class="circulo">
+          <img src="/images/image-mr.jpeg" width="500px" height="500px" />
+        </h1>
+      </div>
+    </div>
+  </body>
+</html>
